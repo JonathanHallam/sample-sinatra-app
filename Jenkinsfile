@@ -1,7 +1,7 @@
 pipeline {
 
     agent {
-        label 'docker-jnlp-ruby-agent'
+        label 'docker-ruby-agent'
     }
 
     stages {
