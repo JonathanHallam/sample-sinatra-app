@@ -8,13 +8,13 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'bundle exec rake'
+                sh 'bundle'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'ruby sinatra.rb'
+                sh 'bundle'
             }
         }
 
