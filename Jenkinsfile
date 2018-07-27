@@ -8,7 +8,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'sudo gem install bundler'
+                sh 'sudo -St gem install bundler'
             }
         }
 
