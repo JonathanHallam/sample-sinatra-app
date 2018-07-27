@@ -8,7 +8,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo "sudo -St gem install bundler"
+                sh 'bundle ; rspec'
             }
         }
 
